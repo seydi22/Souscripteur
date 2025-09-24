@@ -1,0 +1,35 @@
+name: moov_money_agent_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.0.0
+  shared_preferences: ^2.0.15
+  image_picker: ^1.0.0
+  cupertino_icons: ^1.0.8
+  geolocator: ^12.0.0 # ou la dernière version stable
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1   # ✅ ajouté ici
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
