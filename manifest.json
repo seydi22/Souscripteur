@@ -1,11 +1,11 @@
 {
-    "name": "moov_money_agent_app",
-    "short_name": "moov_money_agent_app",
+    "name": "Moov Money Agent App",
+    "short_name": "Moov Money Agent App",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Moov Money Agent App - Manage your agent activities.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
