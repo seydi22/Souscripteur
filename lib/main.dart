@@ -1,5 +1,6 @@
 // Fichier: main.dart
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'screens/splash_screen.dart';
 import 'screens/login_screen.dart';
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
         ),
       ),
       // Le splash screen est maintenant la route initiale
-      initialRoute: '/splash',
+      initialRoute: kIsWeb ? '/' : '/splash',
       routes: {
         '/splash': (context) => SplashScreen(),
         '/': (context) => LoginScreen(),
