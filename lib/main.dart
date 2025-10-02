@@ -9,8 +9,11 @@ import 'screens/agent_dashboard_screen.dart';
 import 'screens/merchant_list_screen.dart';
 import 'screens/agent_performance_dashboard_screen.dart';
 import 'screens/supervisor_dashboard_screen.dart';
+import 'locator.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  setupLocator();
   runApp(MyApp());
 }
 
